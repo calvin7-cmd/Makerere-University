@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #222222;
+    line-height: 1.5;
+}
+
+.page-header {
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #006633;
+}
+
+.page-header h1 {
+    font-size: 2rem;
+    color: #006633;
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.page-header h2 {
+    font-size: 1.25rem;
+    color: #333333;
+    margin: 5px 0 15px 0;
+    font-weight: normal;
+}
+
+.metadata-bar {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #444444;
+    border-top: 1px solid #dddddd;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.results-table th,
+.results-table td {
+    border: 1px solid #cccccc;
+    padding: 12px 10px;
+    text-align: center;
+}
+
+.results-table td:nth-child(2) {
+    text-align: left;
+}
+
+.program-header {
+    background-color: #006633;
+    color: #ffffff;
+    font-size: 1.15rem;
+    padding: 14px;
+    letter-spacing: 0.5px;
+}
+
+.column-headers th {
+    background-color: #222222;
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+.results-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.results-table tbody tr:nth-child(even) {
+    background-color: #FFF8F4;
+}
+
+.results-table tbody tr:hover {
+    background-color: #f1f5f9;
+}
+
+.results-table tfoot tr {
+    background-color: #EEEEEE;
+    font-weight: bold;
+    color: #111111;
+}
+
+.results-table tfoot td:first-child {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.grade-a {
+    background-color: #d4edda;
+    color: #155724;
+    font-weight: bold;
+}
+
+.grade-b-plus {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    font-weight: bold;
+}
+
+.grade-b {
+    background-color: #e2e3e5;
+    color: #383d41;
+    font-weight: bold;
+}
+
+.grade-c {
+    background-color: #fff3cd;
+    color: #856404;
+    font-weight: bold;
+}
+
+.grade-f {
+    background-color: #f8d7da;
+    color: #721c24;
+    font-weight: bold;
+}
